@@ -1,0 +1,112 @@
+.Container {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.AddStudent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.SearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AddInput {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    height: 40px;
+    width: 250px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.SearchInput {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    height: 40px;
+    width: 500px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.Button {
+    float: right;
+    padding: 6px 20px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #000;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.StudentsList {
+    margin-top: 56px;
+}
+
+.StudentCard {
+    width: 800px;
+    height: 150px;
+    padding: 20px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.StudentCardControls {
+    align-self: flex-end;
+    width: 120px;
+    height: 25px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.StudentCardControls p {
+    cursor: pointer;
+}
+
+.EditBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EditInput {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    height: 40px;
+    width: 200px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
